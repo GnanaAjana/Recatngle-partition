@@ -1,0 +1,81 @@
+
+
+.chart1 {
+    stroke: #f0d1d1;
+    fill: #f0d1d1
+}
+
+.chart2 {
+    stroke: #e9baba;
+    fill: #e9baba
+}
+
+.chart3 {
+    stroke: #e2a4a4;
+    fill: #e2a4a4
+}
+
+.chart4 {
+    stroke: #db8d8d;
+    fill: #db8d8d
+}
+
+.chart5 {
+    stroke: #d37676;
+    fill: #d37676
+}
+
+.chart6 {
+    stroke: #cc6060;
+    fill: #cc6060
+}
+
+.chart7 {
+    stroke: #c54949;
+    fill: #c54949
+}
+
+.chart8 {
+    stroke: #be3232;
+    fill: #be3232
+}
+
+.chart9 {
+    stroke: #b71c1c;
+    fill: #b71c1c
+}
+
+.text {
+    text-anchor: middle;
+    font-family: sans-serif;
+    font-size: 18px;
+    fill: black;
+}
+
+.wrapper {
+    top: 20vh;
+    position: relative;
+}
+
+.tableContainer {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tableContainer .noBorder {
+    border: none;
+}
+
+.tableContainer .pointer {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .wrapper {
+        left: 0vw;
+    }
+}
